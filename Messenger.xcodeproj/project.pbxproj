@@ -81,9 +81,8 @@
 		D24D769D28AF98C500A81BAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D24D76AF28AFA1D500A81BAF /* Login */,
 				D24D768D28AF97AE00A81BAF /* ConversationsViewController.swift */,
-				D24D76A328AF9C3D00A81BAF /* LoginViewController.swift */,
-				D24D76A528AF9C6500A81BAF /* RegisterViewController.swift */,
 				D24D76A728AF9CC800A81BAF /* PhotoViewerViewController.swift */,
 				D24D76A928AF9CDB00A81BAF /* VideoPlayerViewController.swift */,
 				D24D76AB28AF9D0700A81BAF /* NewConverstaionViewController.swift */,
@@ -131,6 +130,15 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D24D76AF28AFA1D500A81BAF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D24D76A528AF9C6500A81BAF /* RegisterViewController.swift */,
+				D24D76A328AF9C3D00A81BAF /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
