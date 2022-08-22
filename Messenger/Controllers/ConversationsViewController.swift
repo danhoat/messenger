@@ -17,14 +17,12 @@ class ConversationsViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let isLogged = UserDefaults.standard.bool(forKey: "logged_in")
-        if !isLogged{
+        let isLoggedIn = UserDefaults.standard.bool(forKey: "logged_in")
+        if !isLoggedIn {
             let vc = LoginViewController()
             let nav = UINavigationController(rootViewController:  vc)
             nav.modalPresentationStyle = .fullScreen;
-            present(nav, animated: true)
-        } else {
-            view.background;
+            present(nav, animated: false)
         }
     }
 }
